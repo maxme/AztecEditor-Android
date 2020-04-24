@@ -8,7 +8,7 @@ jobs:
   CLAssistant:
     runs-on: ubuntu-latest
     steps:
-      - name: "CLA Bot"
+      - name: "CLA Assistant"
         if: (github.event.comment.body == 'recheckcla' || github.event.comment.body == 'I have read the CLA Document and I hereby sign the CLA') || github.event_name == 'pull_request'
         uses: cla-assistant/github-action@v1.3.0-alpha
         env:
@@ -18,6 +18,6 @@ jobs:
           path-To-cladocument: 'https://github.com/maxme/AztecEditor-Android/blob/develop/CLA.md'
           # branch should not be protected
           branch: 'develop'
-          whitelist: maxme,bot*
+          whitelist: maxme
           empty-commit-flag: false
           blockchain-storage-flag: false
