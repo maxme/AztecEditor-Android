@@ -2,8 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/wordpress-mobile/AztecEditor-Android.svg?style=svg)](https://circleci.com/gh/wordpress-mobile/AztecEditor-Android)
 
-Aztec (which extends EditText) is a rich-text editor component for writing HTML
-documents in Android.
+Aztec (which extends EditText) is a rich-text editor component for writing HTML documents in Android.
 
 Supports Android 4.1+ (API 16 - Jelly Bean)
 
